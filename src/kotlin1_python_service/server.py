@@ -53,7 +53,7 @@ class Handler(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    server = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
+    server = ThreadingHTTPServer(("0.0.0.0", PORT), Handler)
     logger.info("%s listening on http://127.0.0.1:%s", SERVICE_NAME, PORT)
     try:
         server.serve_forever()
