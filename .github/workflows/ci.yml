@@ -1,0 +1,14 @@
+name: Kotlin1 Python Service CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  ci:
+    uses: Gulzar-TechlogixIT/common/.github/workflows/python-pipeline.yml@main
+    with:
+      python-version: "3.12"
