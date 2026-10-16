@@ -1,10 +1,10 @@
-﻿"""Small standard-library HTTP service for local development."""
+"""Small standard-library HTTP service for local development."""
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import json
 import os
 
-from py_lib1 import normalize_text
-from py_lib_2 import get_logger
+from gulzar_text_utils import normalize_text
+from gulzar_logging_utils import get_logger
 
 PORT = int(os.environ.get("PORT", "8087"))
 SERVICE_NAME = "kotlin1-python-service"

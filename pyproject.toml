@@ -8,8 +8,8 @@ version = "0.1.0"
 description = "Independent Python HTTP service used by the Kotlin1 application group"
 requires-python = ">=3.10"
 dependencies = [
-    "py-lib1==0.1.0",
-    "py-lib-2==0.1.0",
+    "gulzar-techlogix-text-utils==0.1.0",
+    "gulzar-techlogix-logging-utils==0.1.0",
 ]
 
 [project.optional-dependencies]

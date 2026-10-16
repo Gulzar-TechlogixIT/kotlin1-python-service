@@ -1,5 +1,5 @@
-﻿from py_lib1 import normalize_text
-from py_lib_2 import get_logger
+from gulzar_text_utils import normalize_text
+from gulzar_logging_utils import get_logger
 
 
 def test_normalize_text_collapses_whitespace():
